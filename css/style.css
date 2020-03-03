@@ -1,17 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+
 
 body {
   background-color: #fff;
-  background: url("../images/travelworthy-backdrop.jpg") no-repeat center center fixed;
+  background: url("../images/guitar.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Cinzel';}
 
 h1 {
-  background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
+  
   width: 230px;
   height: 180px;
   float: left;
@@ -38,7 +39,7 @@ p + h2 {
   float: left;
   clear: left;
   background-color: #ffb87a;
-  color: #1e1b1e;
+  color: #ff0000;
   width:170px;
   padding: 18px 30px;
   text-align: center;}
@@ -46,7 +47,7 @@ p + h2 {
 /* black bar across the right hand side of the page */
 
 #info {
-  background-color: #1e1b1e;
+  background-color: #ff0000;
   color: #fff;
   width: 200px;
   padding: 0 15px;
@@ -58,7 +59,7 @@ p + h2 {
 
 /* details in the black bar */
 
-#hotelName {
+#clubName {
   text-transform: uppercase;
   text-align: center; 
   font-size: 120%;
@@ -67,15 +68,15 @@ p + h2 {
   border-bottom: 1px solid #fff; 
   padding: 10px 0;}
 
-#hotel1 {
+#concert1 {
   margin-top: 1em; 
   border-top: 1px solid #fff; 
   padding-top: 1em;} 
-#hotel2 {
+#concert2 {
   border-bottom: 1px solid #fff; 
   padding-bottom: 1em;}
 
-#rooms {
+#tickets {
   font-size: 440%;
   color: #ffb87a;
   display: inline-block;
